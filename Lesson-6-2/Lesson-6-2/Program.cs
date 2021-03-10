@@ -22,15 +22,14 @@ namespace Lesson_6_2
             else
             {
                 Console.WriteLine("Список задач");
-                //ToDo[] a = new ToDo[5];
+                
                 a[0] = new ToDo("Сходить в магазин", true);
                 a[1] = new ToDo("Купить хлеб", true);
                 a[2] = new ToDo("Купить молоко", true);
                 a[3] = new ToDo("Вернуться домой", true);
                 a[4] = new ToDo("Положить продукты в холодильник", true);
                 OutToDo(a, nomber);
-                //string json = File.ReadAllText(workDir);
-                //a = JsonSerializer.Deserialize<ToDo>(json);
+                
             }
 
 
